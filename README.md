@@ -4,12 +4,12 @@
 This project investigates a **Distributed Denial of Service (DDoS) attack** targeting XYZ Hospital’s records server. The attack, executed through **ICMP flooding**, resulted in **server downtime**, preventing medical staff from accessing critical patient records. Using **Wireshark**, the network traffic was analyzed to detect attack patterns, assess vulnerabilities, and propose security enhancements.
 
 ## Key Findings
-  - **Wireshark Analysis Identified:**
+- **Wireshark Analysis Identified:**
    - An unusually high volume of **ICMP Echo Requests** (Type 8) from multiple IP sources.
    - No ICMP Echo Replies (Type 0), suggesting the server was overwhelmed.
    - Packets arriving within **extremely short intervals**, confirming a flood attack.
 
-  - **Main Security Gaps:**
+- **Main Security Gaps:**
    - **Lack of ICMP rate limiting** allowed unlimited echo requests.
    - **No Intrusion Detection System (IDS)** to flag abnormal traffic patterns.
    - **Absence of cloud-based DDoS protection**, leaving the network vulnerable.
@@ -31,7 +31,7 @@ This project investigates a **Distributed Denial of Service (DDoS) attack** targ
 - **Firewall & Intrusion Detection Security Best Practices**.
 
   
-**Disclaimer:**  
+## Disclaimer   
 This repository contains only a summary of my **Wireshark Analysis project**. The full report was submitted as part of a university assignment and cannot be shared publicly due to academic integrity and copyright policies. 
 
 

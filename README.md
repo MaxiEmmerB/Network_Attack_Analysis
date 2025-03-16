@@ -21,7 +21,8 @@ This project investigates a **Distributed Denial of Service (DDoS) attack** targ
 - **Intrusion Detection Systems (IDS)** – Investigating security monitoring solutions.
 
 ## Security Recommendations
-- **Implement ICMP Rate Limiting** – Restrict excessive echo requests to prevent overload. - **Deploy Intrusion Detection System (IDS)** – Monitor for spikes in ICMP requests and trigger alerts.
+- **Implement ICMP Rate Limiting** – Restrict excessive echo requests to prevent overload.
+- **Deploy Intrusion Detection System (IDS)** – Monitor for spikes in ICMP requests and trigger alerts.
 - **Utilize Cloud-Based DDoS Protection** – Filter malicious traffic before it reaches the network.
 
 ## Skills Gained

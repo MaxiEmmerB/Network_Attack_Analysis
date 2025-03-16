@@ -5,14 +5,14 @@ This project investigates a **Distributed Denial of Service (DDoS) attack** targ
 
 ## Key Findings
   - **Wireshark Analysis Identified:**
-  - An unusually high volume of **ICMP Echo Requests** (Type 8) from multiple IP sources.
-  - No ICMP Echo Replies (Type 0), suggesting the server was overwhelmed.
-  - Packets arriving within **extremely short intervals**, confirming a flood attack.
+   - An unusually high volume of **ICMP Echo Requests** (Type 8) from multiple IP sources.
+   - No ICMP Echo Replies (Type 0), suggesting the server was overwhelmed.
+   - Packets arriving within **extremely short intervals**, confirming a flood attack.
 
   - **Main Security Gaps:**
-  - **Lack of ICMP rate limiting** allowed unlimited echo requests.
-  - **No Intrusion Detection System (IDS)** to flag abnormal traffic patterns.
-  - **Absence of cloud-based DDoS protection**, leaving the network vulnerable.
+   - **Lack of ICMP rate limiting** allowed unlimited echo requests.
+   - **No Intrusion Detection System (IDS)** to flag abnormal traffic patterns.
+   - **Absence of cloud-based DDoS protection**, leaving the network vulnerable.
 
 ## Tools & Technologies Used
 - **Wireshark** – Packet capture & network traffic analysis.

@@ -30,3 +30,11 @@ This project investigates a **Distributed Denial of Service (DDoS) attack** targ
 - **Packet Behavior Analysis & Attack Detection**.
 - **Firewall & Intrusion Detection Security Best Practices**.
 
+  
+**Disclaimer:**  
+This repository contains only a summary of my **Wireshark Analysis project**. The full report was submitted as part of a university assignment and cannot be shared publicly due to academic integrity and copyright policies. 
+
+
+
+
+
